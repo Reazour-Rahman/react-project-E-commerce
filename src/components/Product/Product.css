@@ -1,0 +1,32 @@
+.product-inside-display{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.shopping-details{
+    margin-left: 15px;
+}
+.details-inside-display{
+    display: flex;
+    justify-content: space-between;
+}
+.Add-to-cart-btn{
+    background-color: goldenrod;
+    width: 200px;
+    height: 30px;
+    border: .5px solid gray;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.Add-to-cart-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(202, 146, 4);
+    cursor: pointer;
+}
+.Add-to-cart-btn:focus{
+    background-color: rgb(175, 126, 1);
+}
+
+.icon-color{
+    color: goldenrod;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 4.7fr 1.3fr;
+}
+.shopping{
+    border-right: 1px solid lightgray;
+    margin-right: 5px;
+    margin-left: 200px;
+}
+
+/* Cart style */
+.add-to-cart{
+
+}
+.cart-header{
+    text-align: center;
+}
+.calculation{
+
+}
+.cart-btn{
+    text-align: center;
+}
