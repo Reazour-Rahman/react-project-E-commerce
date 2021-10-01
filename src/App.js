@@ -9,8 +9,9 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div>
-      <Header></Header>
+      
       <BrowserRouter>
+      <Header></Header>
         <Switch>
 
           <Route exact path="/">
