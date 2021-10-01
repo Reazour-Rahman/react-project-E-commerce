@@ -17,6 +17,7 @@ const Shop = () => {
                 setSearch(data)
             })
     },[])
+    // console.log(products)
     // local storage 
     useEffect( () =>{
         if (products.length) {
@@ -45,6 +46,7 @@ const Shop = () => {
         const matchedResult = products.filter(product => product.name.toLowerCase().includes(gotSearch.toLowerCase()))
         setSearch(matchedResult)
     }
+    // console.log(search)
     return (
         <div>
             <div className="search-area">

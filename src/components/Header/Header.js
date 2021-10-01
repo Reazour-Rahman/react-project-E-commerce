@@ -13,7 +13,7 @@ const Header = (props) => {
             <nav className="menu">
                 <div className="anchor-container">
                 <a href="/shop">Shop</a>
-                <a href="/order">Order Review</a>
+                <a href="/review">Order Review</a>
                 <a href="/inventory">Manage Inventory Here</a>
                 </div>
             </nav>

@@ -1,0 +1,4 @@
+.cart-information{
+    display: grid;
+    grid-template-columns: 4.7fr 1.3fr;
+}
